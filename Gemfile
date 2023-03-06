@@ -19,6 +19,12 @@ group :test do
   gem 'capybara'
   gem 'rack-test'
   gem 'database_cleaner'
+
 end
+
+gem 'puma', '~> 6.1'
+
+group :development do
+
 
 
