@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 ruby "2.7.4"
 
-gem 'bigdecimal', '1.3.5'
+
 gem 'sinatra'
 gem 'activerecord', '~> 4.2', '>= 4.2.6', :require => 'active_record'
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
@@ -14,6 +14,7 @@ gem 'shotgun'
 gem 'pry'
 gem 'bcrypt'
 gem 'tux'
+gem 'bigdecimal', '1.3.5'
 
 group :test do
   gem 'rspec'
