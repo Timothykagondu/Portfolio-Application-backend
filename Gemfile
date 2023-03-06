@@ -22,7 +22,6 @@ group :test do
 
 end
 
-gem "require_all", "~> 3.0"
 gem 'puma', '~> 6.1'
 
 group :development do
