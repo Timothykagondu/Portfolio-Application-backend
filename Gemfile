@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-ruby "2.7.4"
+
 
 
 gem 'sinatra'
@@ -14,7 +14,7 @@ gem 'shotgun'
 gem 'pry'
 gem 'bcrypt'
 gem 'tux'
-gem 'bigdecimal', '1.3.5'
+gem 'bigdecimal'
 
 group :test do
   gem 'rspec'
