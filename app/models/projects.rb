@@ -1,4 +1,5 @@
 class Project < ActiveRecord::Base
+  
     belongs_to :user
    
      enum project_status: { active: 0, archived: 1 }
