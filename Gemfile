@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
+ruby "2.7.4"
+
 gem 'sinatra'
 gem 'activerecord', '~> 4.2', '>= 4.2.6', :require => 'active_record'
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
@@ -24,3 +26,4 @@ gem 'puma', '~> 6.1'
 group :development do
 
 end
+
